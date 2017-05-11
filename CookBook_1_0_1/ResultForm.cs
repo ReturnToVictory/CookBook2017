@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CookBook_1_0_1
 {
-    public partial class Form1 : Form
+    public partial class ResultForm : Form
     {
-        public Form1()
+        public ResultForm()
         {
             InitializeComponent();
+        }
+
+        private void ResultForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
